@@ -1,0 +1,20 @@
+@font-face{
+    font-family:'gotham_bookregular';
+    src:url('./fonts/gotham-book-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'gotham_mediumregular';
+    src:url('./fonts/gotham-medium-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'gotham_boldregular';
+    src:url('./fonts/gotham-bold-webfont.woff') format('woff');
+    font-weight:normal;
+    font-style:normal
+}

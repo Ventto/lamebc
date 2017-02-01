@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration:none;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+html{
+    /* Remove delay for background-attachement:fixed on iOS */
+    -webkit-font-smoothing: antialiased;
+    /* Remove tap delay on iOS */
+    -ms-touch-action: manipulation;
+}
+
+video {
+    position:relative;
+    min-width: 100%;
+    width:100%;
+    height:auto;
+}
+
+ul li {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.fixed {
+    position:fixed;
+}
+
+.align-blocks {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.table {
+    display:table;
+}
+
+.cell {
+    display:table-cell;
+}
+
+.fluid {
+    width:100%;
+    height:100%
+}
+
+.row-fluid {
+    width:100%;
+}
+
+.clearme {
+    clear:both;
+}
+
+.parallax {
+    border:1px solid transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-optimiz {
+    /*
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    */
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    pointer-events: none;
+}
